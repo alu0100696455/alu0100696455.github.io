@@ -12,7 +12,7 @@ body {
 .texto {
   color: white;
   text-shadow: 1px 1px 5px black;
-  text-indent: inherit;
+  text-indent: 20px;
 }
 
 div #practicas {
@@ -43,6 +43,9 @@ p {
   color: #16ff34;
 }
 
+.nav {
+}
+
 .navbar-default {
   background: #0baa5d;
   border-color: white;
@@ -57,7 +60,6 @@ p {
 }
 
 header {
-  position: fixed;
   background: #032e20;
   color: white;
 }
