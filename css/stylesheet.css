@@ -9,6 +9,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.portfolio {
+  padding: 10px;
+  color: #032e20;
+  font-weight: bold;
+}
+
 .texto {
   color: white;
   text-shadow: 1px 1px 5px black;
@@ -25,12 +31,16 @@ div .practica:hover {
 
 }
 
+div #inicio {
+  height: 100vh;
+}
+
 div #practicas {
-  height:100vh;
+  height: 100vh;
 }
 
 div #sobremi {
-  height:100vh;
+  height: 100vh;
 }
 
 h3 {
@@ -56,17 +66,25 @@ p {
 .nav {
 }
 
-.navbar-default {
+.navbar {
   background: #0baa5d;
   border-color: white;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-nav > li > a {
    color: white;
 }
 
-.navbar-default .navbar-nav > a {
+.navbar-nav > a {
    color: white;
+}
+
+.navbar-nav > li > a:hover {
+  color: #032e20;
+}
+
+.navbar-nav > li > a .active {
+  color: black;
 }
 
 header {
